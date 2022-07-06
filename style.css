@@ -13,8 +13,8 @@ h2 {
 }
 
 p {
-	width: 60%;
-	padding: 0 18%;
+	/*width: 60%;*/
+	/*padding: 0 18%;*/
 	/*text-align: center;*/
 }
 
@@ -25,6 +25,7 @@ p {
 	color: white;
 	padding: 10px 40px;
 	border-radius: 5px;
+	margin-top: 5px;
 }
 
 .flexible-container {
@@ -33,7 +34,7 @@ p {
 	justify-content: center;
 }
 
-.header {
+.header-section {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/donation7.jpg');
 	/*background-image: url(images/donation7.jpg);*/
 	height: 100%;
@@ -42,13 +43,14 @@ p {
 	background-size: cover;
 	text-align: center;
 	color: white;
-	padding: 10%;
+	padding: 15%;
 	margin-bottom: 100px;
 }
 
-.donate-today {
+.donate-today-section {
 	text-align: center;
 	margin-bottom: 100px;
+	padding: 0 20%;
 }
 
 .donation-amount {
@@ -75,3 +77,63 @@ p {
 	/*border-color: white;*/
 }
 
+.donate-plan-section {
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+
+.plan-schemes {
+	text-align: left;
+	padding: 40px 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+
+}
+
+#plan-1 {
+	background-color: rgb(240,248,255);
+}
+
+#plan-2 {
+	background-color: rgb(255,228,225);
+}
+
+#plan-3 {
+	background-color: rgb(253,245,230);
+}
+
+.bonus-section {
+	margin-bottom: 100px;
+}
+
+.half-width {
+	width: 48%;		/*the width of this class is set to 50% of it's parent element*/
+	padding-left: 2%;
+}
+
+.half-width img {
+	width: 90%;		/*this sets the % of width the image takes from the div with class half-with*/
+	border-radius: 10px;
+}
+
+.updates-section {
+	text-align: center;
+	margin-bottom: 100px;
+	padding: 0 10%;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+footer h2 {
+	color: orangered;
+	font-style: oblique;
+}
