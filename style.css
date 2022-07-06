@@ -22,7 +22,6 @@ h3 {
 .button {
 	text-decoration: none;
 	background-color: orangered;
-	/*background-image: linear-gradient(orange, tomato);*/
 	color: white;
 	padding: 10px 40px;
 	border-radius: 5px;
@@ -172,5 +171,4 @@ footer {
 
 footer h2 {
 	color: orangered;
-	font-style: oblique;
 }
